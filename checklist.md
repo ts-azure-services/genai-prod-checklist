@@ -104,3 +104,4 @@ evaluation: how should I evaluate?
 
 ### Pending for consideration
 - Load testing or performance testing for applications
+- Responsible AI practices in development
