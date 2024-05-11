@@ -55,6 +55,7 @@ example, at a platform level).
 
 ## Managing OAI Capacity
 - Leverage Azure APIM in a secured manner to be the entry point to multiple OAI backends/deployments.
+  - When using OpenAPI specifications, track and version control different API configurations for breaking changes.
 - For multiple regional deployments, you need only maintain one OAI resource per region, which in turn can connect to multiple
   deployments, each containing different models.
 - If your OAI backend capacity is split between PTUs and PAYGO capacities, consider using custom APIM policies to handle how
